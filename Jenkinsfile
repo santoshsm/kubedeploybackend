@@ -13,7 +13,7 @@ pipeline {
     stage('Deploy App') {
       steps {
         script {
-          kubernetesDeploy(configs: "deploy-backend.yaml", kubeconfigId: "clusterk8sconfig")
+          kubernetesDeploy(configs: "deploy-backend.yaml", kubeconfigId: "mykubeconfig")
         }
       }
     }
