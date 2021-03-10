@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
+  creationTimestamp: 2021-03-10T19:46:46Z
   labels:
     app: codestatebkenddep
   name: codestatebkenddep
@@ -13,7 +13,7 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
+      creationTimestamp: 2021-03-10T19:46:46Z
       labels:
         app: codestatebkenddep
     spec:
@@ -27,7 +27,7 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: null
+  creationTimestamp: 2021-03-10T19:46:46Z
   labels:
     app: codestatebkenddep
   name: codestatebkenddep
