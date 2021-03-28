@@ -18,7 +18,7 @@ spec:
         app: codestatebkenddep
     spec:
       containers:
-      - image: cloudlearnall/backend:latest
+      - image: cloudlearnall/backend:1.1
         name: codestatebkend
         resources: {}
 status: {}
