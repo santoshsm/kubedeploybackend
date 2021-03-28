@@ -21,7 +21,6 @@ spec:
       - image: codestatebkend:latest
         name: codestatebkend
         resources: {}
-        imagePullPolicy: Never
 status: {}
 --- 
 apiVersion: v1
